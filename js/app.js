@@ -87,20 +87,19 @@ function checkCurrentArti() {
 function renderArti(arti) {
   const timeSlot = arti.times.map(t => `${t.start} - ${t.end}`).join(', ');
   const title = arti.title[currentLang];
+  const liveLabel = currentLang === 'mr' ? 'आता सुरू आहे' : 'Now Live';
+  const readLabel = currentLang === 'mr' ? 'आरती सुरू करा' : 'Start Reading';
   
   elements.container.innerHTML = `
-    <article class="arti-card">
-      <div class="card-time">🕭 ${UI_TEXT[currentLang].liveSession}: ${timeSlot}</div>
-      <h2 class="card-title">${title}</h2>
-      ${arti.lyrics.map(lyric => `
-        <div class="verse-block">
-          <p class="lyrics">${lyric['verse_' + currentLang].replace(/\n/g, '<br>')}</p>
-          <p class="meaning">${lyric['meaning_' + currentLang]}</p>
-        </div>
-      `).join('')}
-    </article>
-    <div class="nav-buttons">
-      <button id="browse-all" class="btn btn-outline">${UI_TEXT[currentLang].browseAll}</button>
+    <div class="current-arti-hero fade-in">
+      <div class="live-indicator pulse">● ${liveLabel}</div>
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; color: #ffd700; margin: 1.5rem 0;">${title}</h2>
+      <p style="font-size: 1.3rem; margin-bottom: 2.5rem; color: #fff; font-weight: 300;">🕭 ${timeSlot}</p>
+      
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="${arti.id}.html" class="btn btn-primary" style="padding: 1.2rem 3rem; font-size: 1.1rem; font-weight: 600; text-decoration: none;">${readLabel}</a>
+        <button id="browse-all" class="btn btn-outline" style="padding: 1.2rem 3rem;">${UI_TEXT[currentLang].browseAll}</button>
+      </div>
     </div>
   `;
 
