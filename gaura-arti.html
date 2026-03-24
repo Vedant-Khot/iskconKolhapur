@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaura Arti Lyrics - ISKCON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lang-en { display: none; }
+        .lang-mr { display: block; }
+        body.en-mode .lang-en { display: block; }
+        body.en-mode .lang-mr { display: none; }
+    </style>
+</head>
+<body class="mr-mode">
+    <div class="overlay">
+        <div style="position: absolute; top: 1rem; right: 1rem;">
+            <button id="lang-btn" class="btn btn-outline" style="padding: 0.4rem 1rem;">English</button>
+        </div>
+
+        <header>
+            <h1>Gaura Arti</h1>
+            <p class="subtitle lang-mr">गौरा आरती</p>
+            <p class="subtitle lang-en">Sri Gaura-arati</p>
+        </header>
+
+        <main class="main-content">
+            <article class="arti-card">
+                <div class="card-time lang-mr">🕭 वेळ: ०७:०० PM</div>
+                <div class="card-time lang-en">🕭 Time: 07:00 PM</div>
+                <h2 class="card-title">Kiba Jaya Jaya Gorācāńder</h2>
+                
+                <div class="verse-block">
+                    <p class="lyrics">kiba jaya jaya gorācāńder āratiko śobhā<br>jāhnavī-taṭa-vane jaga-mana-lobhā</p>
+                    <div class="meaning lang-mr">भगवान चैतन्यांच्या सुंदर आरतीचा विजय असो! गंगा नदीच्या किनाऱ्यावरील वनात होणारी ही आरती संपूर्ण जगाचे मन मोहून टाकणारी आहे.</div>
+                    <div class="meaning lang-en">All glories to the beautiful arati ceremony of Lord Caitanya! This Gaura-arati is taking place in a grove on the banks of the Ganges and is attracting the minds of all.</div>
+                </div>
+            </article>
+
+            <div class="nav-buttons">
+                <a href="index.html" class="btn btn-outline lang-mr">मुख्य पृष्ठ</a>
+                <a href="index.html" class="btn btn-outline lang-en">Back to Home</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.getElementById('lang-btn');
+        let lang = localStorage.getItem('artiLang') || 'mr';
+        function apply() {
+            if (lang === 'en') { document.body.classList.add('en-mode'); btn.textContent = 'मराठी'; }
+            else { document.body.classList.remove('en-mode'); btn.textContent = 'English'; }
+        }
+        btn.addEventListener('click', () => { lang = lang === 'en' ? 'mr' : 'en'; localStorage.setItem('artiLang', lang); apply(); });
+        apply();
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narasimha Arti Lyrics - ISKCON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lang-en { display: none; }
+        .lang-mr { display: block; }
+        body.en-mode .lang-en { display: block; }
+        body.en-mode .lang-mr { display: none; }
+    </style>
+</head>
+<body class="mr-mode">
+    <div class="overlay">
+        <div style="position: absolute; top: 1rem; right: 1rem;">
+            <button id="lang-btn" class="btn btn-outline" style="padding: 0.4rem 1rem;">English</button>
+        </div>
+
+        <header>
+            <h1>Narasimha Arti</h1>
+            <p class="subtitle lang-mr">नरसिंह आरती</p>
+            <p class="subtitle lang-en">Sri Nrsimha Pranam</p>
+        </header>
+
+        <main class="main-content">
+            <article class="arti-card">
+                <div class="card-time lang-mr">🕭 वेळ: ०५:०५ AM & ०७:२५ PM</div>
+                <div class="card-time lang-en">🕭 Time: 05:05 AM & 07:25 PM</div>
+                <h2 class="card-title">Sri Nrsimha Pranam</h2>
+                
+                <div class="verse-block">
+                    <p class="lyrics">namas te narasiṁhāya prahlādāhlāda-dāyine<br>hiraṇyakaśipu-vakṣaḥ-śilā-ṭaṅka-nakhālaye</p>
+                    <div class="meaning lang-mr">मी भगवान नरसिंहांना नमन करतो, जे प्रल्हाद महाराजांना आनंद देतात आणि ज्यांची नखे हिरण्यकशिपूच्या दगडासारख्या छातीला फोडण्यासाठी छिन्नीसारखी आहेत.</div>
+                    <div class="meaning lang-en">I offer my obeisances to Lord Narasiṁha who gives joy to Prahlāda Mahārāja and whose nails are like chisels on the stonelike chest of the demon Hiraṇyakaśipu.</div>
+                </div>
+
+                <div class="verse-block">
+                    <p class="lyrics">ito nṛsiṁhaḥ parato nṛsiṁho yato yāmi tato nṛsiṁhaḥ<br>bahir nṛsiṁho hṛdaye nṛsiṁho nṛsiṁham ādiṁ śaraṇaṁ prapadye</p>
+                    <div class="meaning lang-mr">भगवान नृसिंह इथे आहेत आणि तिथेही आहेत. मी जिथे जिथे जातो तिथे तिथे भगवान नृसिंह आहेत. ते बाहेरही आहेत आणि हृदयातही आहेत. मी भगवान नृसिंहांना शरण जातो.</div>
+                    <div class="meaning lang-en">Lord Nṛsiṁha is here and also there. Wherever I go, Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge.</div>
+                </div>
+            </article>
+
+            <div class="nav-buttons">
+                <a href="index.html" class="btn btn-outline lang-mr">मुख्य पृष्ठ</a>
+                <a href="index.html" class="btn btn-outline lang-en">Back to Home</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.getElementById('lang-btn');
+        let lang = localStorage.getItem('artiLang') || 'mr';
+        function apply() {
+            if (lang === 'en') { document.body.classList.add('en-mode'); btn.textContent = 'मराठी'; }
+            else { document.body.classList.remove('en-mode'); btn.textContent = 'English'; }
+        }
+        btn.addEventListener('click', () => { lang = lang === 'en' ? 'mr' : 'en'; localStorage.setItem('artiLang', lang); apply(); });
+        apply();
+    </script>
+</body>
+</html>
