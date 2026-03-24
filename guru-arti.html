@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru Arti Lyrics - ISKCON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lang-en { display: none; }
+        .lang-mr { display: block; }
+        body.en-mode .lang-en { display: block; }
+        body.en-mode .lang-mr { display: none; }
+    </style>
+</head>
+<body class="mr-mode">
+    <div class="overlay">
+        <div style="position: absolute; top: 1rem; right: 1rem;">
+            <button id="lang-btn" class="btn btn-outline" style="padding: 0.4rem 1rem;">English</button>
+        </div>
+
+        <header>
+            <h1>Guru Arti</h1>
+            <p class="subtitle lang-mr">श्री गुरु वंदना</p>
+            <p class="subtitle lang-en">Sri Guru Vandana</p>
+        </header>
+
+        <main class="main-content">
+            <article class="arti-card">
+                <div class="card-time lang-mr">🕭 वेळ: ०७:३० AM</div>
+                <div class="card-time lang-en">🕭 Time: 07:30 AM</div>
+                <h2 class="card-title">Sri Guru-charana-padma</h2>
+                
+                <div class="verse-block">
+                    <p class="lyrics lang-mr">श्रीगुरुचरण पद्म, केवळ भकती-सद्म<br>बन्दो मुइ सावधान मते<br>याँहार प्रसादे भाई, ए भव तोरिया जाइ<br>कृष्ण प्राप्ति होय जाहा हइते</p>
+                    <p class="lyrics lang-en">śrī-guru-caraṇa-padma, kevala-bhakati-sadma<br>bando mui sāvadāna mate<br>jāhāra prasāde bhāi, e bhava toriyā jāi<br>kṛṣṇa-prāpti hoy jāhā ha’te</p>
+                    <div class="meaning lang-mr">श्रीगुरुदेवांचे चरणकमल शुद्ध भक्तीचे निवासस्थान आहेत. मी त्यांच्या चरणकमलांना नमन करतो. त्यांच्या कृपेमुळेच आपण या भौतिक संसारातून तरून जाऊ शकतो आणि कृष्णाची प्राप्ती करू शकतो.</div>
+                    <div class="meaning lang-en">The lotus feet of our spiritual master are the abode of pure devotional service. I bow down to his lotus feet with great care and attention. It is through his grace that we can cross over this material existence and attain Krishna.</div>
+                </div>
+            </article>
+
+            <div class="nav-buttons">
+                <a href="index.html" class="btn btn-outline lang-mr">मुख्य पृष्ठ</a>
+                <a href="index.html" class="btn btn-outline lang-en">Back to Home</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.getElementById('lang-btn');
+        let lang = localStorage.getItem('artiLang') || 'mr';
+        function apply() {
+            if (lang === 'en') { document.body.classList.add('en-mode'); btn.textContent = 'मराठी'; }
+            else { document.body.classList.remove('en-mode'); btn.textContent = 'English'; }
+        }
+        btn.addEventListener('click', () => { lang = lang === 'en' ? 'mr' : 'en'; localStorage.setItem('artiLang', lang); apply(); });
+        apply();
+    </script>
+</body>
+</html>

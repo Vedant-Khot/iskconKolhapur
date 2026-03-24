@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulsi Arti Lyrics - ISKCON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lang-en { display: none; }
+        .lang-mr { display: block; }
+        body.en-mode .lang-en { display: block; }
+        body.en-mode .lang-mr { display: none; }
+    </style>
+</head>
+<body class="mr-mode">
+    <div class="overlay">
+        <div style="position: absolute; top: 1rem; right: 1rem;">
+            <button id="lang-btn" class="btn btn-outline" style="padding: 0.4rem 1rem;">English</button>
+        </div>
+
+        <header>
+            <h1>Tulsi Arti</h1>
+            <p class="subtitle lang-mr">तुळशी आरती</p>
+            <p class="subtitle lang-en">Sri Tulasi Pranam</p>
+        </header>
+
+        <main class="main-content">
+            <article class="arti-card">
+                <div class="card-time lang-mr">🕭 वेळ: ०४:४५ AM</div>
+                <div class="card-time lang-en">🕭 Time: 04:45 AM</div>
+                <h2 class="card-title">Sri Tulasi-panchaka</h2>
+                
+                <div class="verse-block">
+                    <p class="lyrics lang-mr">वृन्दायै तुलसी-देव्यै प्रियायै केशवस्य च<br>कृष्ण-भक्ति-प्रदे देवी सत्य-वत्यै नमो नमः</p>
+                    <p class="lyrics lang-en">vṛndāyai tulasī-devyai priyāyai keśavasya ca<br>kṛṣṇa-bhakti-prade devī satya-vatyai namo namaḥ</p>
+                    <div class="meaning lang-mr">मी वृंदादेवींना वारंवार नमन करतो, ज्या भगवान केशवांच्या अत्यंत प्रिय आहेत आणि ज्या अढळ भक्ती प्रदान करतात.</div>
+                    <div class="meaning lang-en">I offer my repeated obeisances unto Vṛndā, Śrīmatī Tulasī Devī, who is very dear to Lord Keśava. O goddess, you bestow devotional service to Kṛṣṇa and you possess the highest truth.</div>
+                </div>
+
+                <div class="verse-block">
+                    <p class="lyrics lang-mr">नमो नमः तुलसी कृष्ण-प्रेयसी नमो नमः<br>राधा-कृष्ण-सेवा पाबो एई अभिलाषी</p>
+                    <p class="lyrics lang-en">namo namaḥ tulasī kṛṣṇa preyasī namo namaḥ<br>rādhā-kṛṣṇa-sevā pābo ei abhilāṣī</p>
+                    <div class="meaning lang-mr">हे तुळशी! कृष्णप्रेयसी! मी तुला पुन्हा पुन्हा नमन करतो. मला श्री राधा-कृष्णाची सेवा मिळावी हीच माझी अभिलाषा आहे.</div>
+                    <div class="meaning lang-en">O Tulasī, beloved of Kṛṣṇa, I bow before you again and again. My desire is to obtain the service of Śrī Śrī Rādhā and Kṛṣṇa.</div>
+                </div>
+            </article>
+
+            <div class="nav-buttons">
+                <a href="index.html" class="btn btn-outline lang-mr">मुख्य पृष्ठ</a>
+                <a href="index.html" class="btn btn-outline lang-en">Back to Home</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.getElementById('lang-btn');
+        let lang = localStorage.getItem('artiLang') || 'mr';
+        function apply() {
+            if (lang === 'en') { document.body.classList.add('en-mode'); btn.textContent = 'मराठी'; }
+            else { document.body.classList.remove('en-mode'); btn.textContent = 'English'; }
+        }
+        btn.addEventListener('click', () => { lang = lang === 'en' ? 'mr' : 'en'; localStorage.setItem('artiLang', lang); apply(); });
+        apply();
+    </script>
+</body>
+</html>

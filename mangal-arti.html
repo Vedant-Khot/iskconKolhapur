@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangal Arti Lyrics - ISKCON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lang-en { display: none; }
+        .lang-mr { display: block; }
+        body.en-mode .lang-en { display: block; }
+        body.en-mode .lang-mr { display: none; }
+    </style>
+</head>
+<body class="mr-mode">
+    <div class="overlay">
+        <div style="position: absolute; top: 1rem; right: 1rem;">
+            <button id="lang-btn" class="btn btn-outline" style="padding: 0.4rem 1rem;">English</button>
+        </div>
+
+        <header>
+            <h1>Mangal Arti</h1>
+            <p class="subtitle lang-mr">श्री गुरु अष्टकम</p>
+            <p class="subtitle lang-en">Sri Gurvastakam</p>
+        </header>
+
+        <main class="main-content">
+            <article class="arti-card">
+                <div class="card-time lang-mr">🕭 वेळ: ०४:३० AM</div>
+                <div class="card-time lang-en">🕭 Time: 04:30 AM</div>
+                <h2 class="card-title">Sri Gurvastakam</h2>
+                
+                <div class="verse-block">
+                    <p class="lyrics lang-mr">संसार-दावानल-लीढ-लोक-त्राणाय कारुण्य-घनाघनत्वम्<br>प्राप्तस्य कल्याण-गुणार्णवस्य वन्दे गुरोः श्री-चरणारविन्दम्</p>
+                    <p class="lyrics lang-en">saṁsāra-dāvānala-līḍha-loka-trāṇāya kāruṇya-ghanāghanatvam<br>prāptasya kalyāṇa-guṇārṇavasya vande guroḥ śrī-caraṇāravindam</p>
+                    <div class="meaning lang-mr">आध्यात्मिक गुरु हे महासागरासारखे दयाळू आहेत. ज्याप्रमाणे ढग जंगलातील आग विझवण्यासाठी पाऊस पाडतात, त्याचप्रमाणे आध्यात्मिक गुरु भौतिक अस्तित्वाची प्रखर आग विझवून जगाचा उद्धार करतात.</div>
+                    <div class="meaning lang-en">The spiritual master is receiving benediction from the ocean of mercy. Just as a cloud pours water on a forest fire to extinguish it, so the spiritual master delivers the materially afflicted world by extinguishing the blazing fire of material existence.</div>
+                </div>
+
+                <div class="verse-block">
+                    <p class="lyrics lang-mr">महाप्रभोः कीर्तन-नृत्य-गीत-वादित्र-माद्यन्-मनसो रसेन<br>रोमाञ्च-कम्पाश्रु-तरङ्ग-भाजो वन्दे गुरोः श्री-चरणारविन्दम्</p>
+                    <p class="lyrics lang-en">mahāprabhoḥ kīrtana-nṛtya-gīta-vāditra-mādyan-manaso rasena<br>romāñca-kampāśru-taraṅga-bhājo vande guroḥ śrī-caraṇāravindam</p>
+                    <div class="meaning lang-mr">भगवान श्रीचैतन्य महाप्रभूंच्या संकीर्तन आंदोलनात कीर्तन, नृत्य, गायन आणि वाद्यं वाजवण्यात आध्यात्मिक गुरु सदैव आनंदित असतात.</div>
+                    <div class="meaning lang-en">Chanting the holy name, dancing in ecstasy, singing, and playing musical instruments, the spiritual master is always gladdened by the saṅkīrtana movement of Lord Caitanya Mahāprabhu.</div>
+                </div>
+            </article>
+
+            <div class="nav-buttons">
+                <a href="index.html" class="btn btn-outline lang-mr">मुख्य पृष्ठ</a>
+                <a href="index.html" class="btn btn-outline lang-en">Back to Home</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.getElementById('lang-btn');
+        let lang = localStorage.getItem('artiLang') || 'mr';
+        function apply() {
+            if (lang === 'en') { document.body.classList.add('en-mode'); btn.textContent = 'मराठी'; }
+            else { document.body.classList.remove('en-mode'); btn.textContent = 'English'; }
+        }
+        btn.addEventListener('click', () => { lang = lang === 'en' ? 'mr' : 'en'; localStorage.setItem('artiLang', lang); apply(); });
+        apply();
+    </script>
+</body>
+</html>
