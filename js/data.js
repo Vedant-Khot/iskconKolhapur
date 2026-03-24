@@ -15,9 +15,45 @@ window.ARTIS_DATA = [
       },
       {
         verse_en: "mahāprabhoḥ kīrtana-nṛtya-gīta-vāditra-mādyan-manaso rasena\nromāñca-kampāśru-taraṅga-bhājo vande guroḥ śrī-caraṇāravindam",
-        meaning_en: "Chanting the holy name, dancing in ecstasy, singing, and playing musical instruments, the spiritual master is always gladdened by the saṅkīrtana movement of Lord Caitanya Mahāprabhu.",
+        meaning_en: "Chanting the holy name, dancing in ecstasy, singing, and playing musical instruments, the spiritual master is always gladdened by the saṅkīrtana movement of Lord Caitanya Mahāprabhu. Because he is enjoying the mellows of pure devotion within his mind, sometimes his hair stands on end, he feels quivering in his body, and tears flow from his eyes like waves.",
         verse_mr: "महाप्रभोः कीर्तन-नृत्य-गीत-वादित्र-माद्यन्-मनसो रसेन\nरोमाञ्च-कम्पाश्रु-तरङ्ग-भाजो वन्दे गुरोः श्री-चरणारविन्दम्",
-        meaning_mr: "भगवान श्रीचैतन्य महाप्रभूंच्या संकीर्तन आंदोलनात कीर्तन, नृत्य, गायन आणि वाद्यं वाजवण्यात आध्यात्मिक गुरु सदैव आनंदित असतात."
+        meaning_mr: "भगवान श्रीचैतन्य महाप्रभूंच्या संकीर्तन आंदोलनात कीर्तन, नृत्य, गायन आणि वाद्यं वाजवण्यात आध्यात्मिक गुरु सदैव आनंदित असतात. त्यांच्या मनात शुद्ध भक्तीचा रस ओसंडून वाहत असल्याने, कधी कधी त्यांचे रोमांच उभे राहतात, शरीरात कंपन होते आणि डोळ्यांतून अश्रुधारा वाहू लागतात."
+      },
+      {
+        verse_en: "śrī-vigrahārādhana-nitya-nānā-śṛṅgāra-tan-mandira-mārjanādau\nyuktasya bhaktāṁś ca niyuñjato 'pi vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "The spiritual master is always engaged in the temple worship of Śrī Śrī Rādhā and Kṛṣṇa. He also engages his disciples in such worship. They dress the Deities in beautiful clothes and ornaments, clean Their temple, and perform other similar worship of the Lord.",
+        verse_mr: "श्री-विग्रहाराधन-नित्य-नाना-शृङ्गार-तन्-मन्दिर-मार्जनादौ\nयुक्तस्य भक्तांश् च नियुञ्जतोऽपि वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "आध्यात्मिक गुरु सदैव श्री श्री राधा-कृष्णाच्या विग्रह पूजेत आणि मंदिर स्वच्छतेत मग्न असतात. ते आपल्या शिष्यांनाही या पूजेत गुंतवतात. ते देवांना सुंदर वस्त्रे आणि अलंकार घालतात आणि मंदिराची सेवा करतात."
+      },
+      {
+        verse_en: "catur-vidha-śrī-bhagavat-prasāda-svādv-anna-tṛptān hari-bhakta-saṅghān\nkṛtvaiva tṛptiṁ bhajataḥ sadaiva vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "The spiritual master offers four kinds of delicious food [analyzed as that which is licked, chewed, drunk, and sucked]. When the spiritual master sees that the devotees are satisfied by eating bhagavat-prasāda, he is satisfied.",
+        verse_mr: "चतुर्-विध-श्री-भगवत्-प्रसाद-स्वाद्व्-अन्न-तृप्तान् हरि-भक्त-सङ्घान्\nकृत्वैव तृप्तिं भजतः सदैव वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "आध्यात्मिक गुरु चार प्रकारचा स्वादिष्ट प्रसाद देवांना अर्पण करतात. जेव्हा भक्तांना हा प्रसाद मिळतो आणि ते तृप्त होतात, तेव्हा आध्यात्मिक गुरुंनाही परम समाधान लाभते."
+      },
+      {
+        verse_en: "śrī-rādhikā-mādhavayor apāra-mādhurya-līlā-guṇa-rūpa-nāmnām\nprati-kṣaṇāsvādana-lolupasya vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "The spiritual master is always eager to hear and chant about the unlimited conjugal pastimes of Rādhā and Mādhava, and Their qualities, names, and forms. The spiritual master aspires to relish these at every moment.",
+        verse_mr: "श्री-राधिका-माधवयोर् अपार-माधुर्य-लीला-गुण-रूप-नाम्नाम्\nप्रति-क्षणास्वादन-लोलुपस्य वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "राधा आणि माधव यांच्या अनंत लीला, त्यांचे गुण आणि नाम यांचे श्रवण आणि कीर्तन करण्यासाठी आध्यात्मिक गुरु सदैव उत्सुक असतात. त्यांना प्रत्येक क्षणी या रसाचे आस्वादन करायचे असते."
+      },
+      {
+        verse_en: "nikuñja-yūno rati-keli-siddhyai yā yālibhir yuktir apekṣaṇīyā\ntatrāti-dakṣyād ati-vallabhasya vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "The spiritual master is very dear, because he is expert in assisting the gopīs, who at different times make different tasteful arrangements for the perfection of Rādhā and Kṛṣṇa's conjugal loving affairs within the groves of Vṛndāvana.",
+        verse_mr: "निकुञ्ज-यूनो रति-केलि-सिद्धयै या यालिभिर् युक्तिर् अपेक्षणीया\nतत्राति-दाक्ष्याद् अति-वल्लभस्य वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "वृंदावनातील निकुंजात राधा-कृष्णाच्या प्रेमलीलांच्या पूर्तीसाठी सख्या ज्या युक्त्या योजतात, त्यात साहाय्य करण्यात आध्यात्मिक गुरु अत्यंत निपुण असतात, म्हणून ते देवांचे अत्यंत प्रिय आहेत."
+      },
+      {
+        verse_en: "sākṣād-dharitvena samasta-śāstrair uktas tathā bhāvyata eva sadbhiḥ\nkintu prabhor yaḥ priya eva tasya vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "The spiritual master is to be honored as much as the Supreme Lord, because he is the most confidential servitor of the Lord. This is acknowledged in all revealed scriptures and followed by all authorities. Therefore I offer my respectful obeisances unto the lotus feet of such a spiritual master, who is a bona fide representative of Śrī Hari [Kṛṣṇa].",
+        verse_mr: "साक्षाद्-धरित्वेन समस्त-शास्त्रैर् उक्तस् तथा भाव्यत एव सद्भिः\nकिन्तु प्रभोर् यः प्रिय एव तस्य वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "आध्यात्मिक गुरूंना साक्षात भगवंतांसमान सन्मान दिला पाहिजे, कारण ते भगवंतांचे अत्यंत प्रिय सेवक आहेत. सर्व शास्त्रे हेच सांगतात. अशा श्री विष्णूंच्या प्रतिनिधींना मी नमन करतो."
+      },
+      {
+        verse_en: "yasya prasādād bhagavat-prasādo yasya prasādān na gatiḥ kuto 'pi\ndhyāyan stuvaṁs tasya yaśas tri-sandhyaṁ vande guroḥ śrī-caraṇāravindam",
+        meaning_en: "By the mercy of the spiritual master one receives the benediction of Kṛṣṇa. Without the grace of the spiritual master, one cannot make any advancement. Therefore, I should always remember and praise the spiritual master. At least three times a day I should offer my respectful obeisances unto the lotus feet of my spiritual master.",
+        verse_mr: "यस्य प्रसादाद् भगवत्-प्रसादो यस्य प्रसादान् न गतिः कुतोऽपि\nध्यायं स्तुवंस् तस्य यशस् त्रि-सन्ध्यं वन्दे गुरोः श्री-चरणारविन्दम्",
+        meaning_mr: "गुरुंच्या कृपेनेच भगवंतांची कृपा प्राप्त होते. गुरूंच्या कृपेविना गती नाही. म्हणून त्रिसंध्याकाळी श्रीगुरुंचे ध्यान करावे आणि त्यांचे यश गावे."
       }
     ]
   },
@@ -30,16 +66,46 @@ window.ARTIS_DATA = [
     times: [{ start: "04:45", end: "05:05" }],
     lyrics: [
       {
+        verse_en: "namo namaḥ tulasī kṛṣṇa-preyasī namo namaḥ\nrādhā-kṛṣṇa-sevā pābo ei abhilāṣī",
+        meaning_en: "O Tulasī, beloved of Kṛṣṇa, I bow before you again and again. My desire is to obtain the service of Śrī Śrī Rādhā and Kṛṣṇa.",
+        verse_mr: "नमो नमः तुलसी कृष्ण-प्रेयसी नमो नमः\nराधा-कृष्ण-सेवा पाबो एई अभिलाषी",
+        meaning_mr: "हे तुळशी! कृष्णप्रेयसी! मी तुला पुन्हा पुन्हा नमन करतो. मला श्री राधा-कृष्णाची सेवा मिळावी हीच माझी अभिलाषा आहे."
+      },
+      {
+        verse_en: "ye tomāra śaraṇa loy, tāra vāñchā pūrṇa hoy\nkṛpā kori’ koro tāre vṛndāvana-vāsī",
+        meaning_en: "Whoever takes shelter of you has his wishes fulfilled. Bestowing your mercy on him, you make him a resident of Vṛndāvana.",
+        verse_mr: "ये तोमार शरण लोय, तार वांछा पूर्ण होय\nकृपा करि कोरो तारे वृंदावन वासी ॥",
+        meaning_mr: "जो कोणी तुमचा आश्रय घेतो, त्याची सर्व इच्छा पूर्ण होते. कृपा करून त्याला वृंदावनाचा रहिवासी बनवा."
+      },
+      {
+        verse_en: "mora ei abhilāṣa, vilāsa kuñje dio vāsa\nnayana heribo sadā yugala-rūpa-rāsi",
+        meaning_en: "My desire is that you will also give me a residence in the pleasure groves of Śrī Vṛndāvana-dhāma. Thus I will always behold the beautiful pastimes of Rādhā and Kṛṣṇa.",
+        verse_mr: "मोर एइ अभिलाष, विलास कुञ्जे दिओ वास\nनयन हेरिबो सदा युगल-रूप-राशि ॥",
+        meaning_mr: "माझी हीच इच्छा आहे की तुम्ही मला वृंदावन धामातील विलास कुंजमध्ये निवास द्यावा, जेणेकरून मी नेहमी राधा आणि कृष्णाच्या सुंदर लीला पाहू शकेन."
+      },
+      {
+        verse_en: "ei nivedana dhara, sakhīra anugata koro\nseva-adhikāra diye koro nija dāsī",
+        meaning_en: "I beg you to make me a follower of the cowherd damsels of Vraja. Please give me the privilege of devotional service and make me your own maidservant.",
+        verse_mr: "एइ निवेदन धर, सखीर अनुगत कर\nसेवा-अधिकार दिये कर निज दासी ॥",
+        meaning_mr: "ही माझी विनंती आहे, मला गोपींच्या अनुचर बनवा. मला सेवेचा अधिकार देऊन तुमची स्वतःची दासी बनवा."
+      },
+      {
+        verse_en: "dīna kṛṣṇa-dāse koy, ei yena mora hoy\nśrī-rādhā-govinda-preme sadā yena bhāsi",
+        meaning_en: "This very fallen and lowly servant of Kṛṣṇa prays, 'May I always swim in the love of Śrī Rādhā and Govinda.'",
+        verse_mr: "दीन कृष्ण-दासे कोय, एइ येन मोर होय\nश्री-राधा-गोविन्द-प्रेमे सदा येन भासि ॥",
+        meaning_mr: "कृष्णाचा हा दीन सेवक प्रार्थना करतो, की मला श्री राधा-गोविंदाच्या प्रेमात नेहमीच न्हाऊन निघता यावे."
+      },
+      {
         verse_en: "vṛndāyai tulasī-devyai priyāyai keśavasya ca\nkṛṣṇa-bhakti-prade devī satya-vatyai namo namaḥ",
-        meaning_en: "I offer my repeated obeisances unto Vṛndā, Śrīmatī Tulasī Devī, who is very dear to Lord Keśava.",
+        meaning_en: "I offer my repeated obeisances unto Vṛndā, Śrīmatī Tulasī Devī, who is very dear to Lord Keśava. O goddess, you bestow devotional service to Kṛṣṇa and you possess the highest truth.",
         verse_mr: "वृन्दायै तुलसी-देव्यै प्रियायै केशवस्य च\nकृष्ण-भक्ति-प्रदे देवी सत्य-वत्यै नमो नमः",
         meaning_mr: "मी वृंदादेवींना वारंवार नमन करतो, ज्या भगवान केशवांच्या अत्यंत प्रिय आहेत आणि ज्या अढळ भक्ती प्रदान करतात."
       },
       {
-        verse_en: "namo namaḥ tulasī kṛṣṇa preyasī namo namaḥ\nrādhā-kṛṣṇa-sevā pābo ei abhilāṣī",
-        meaning_en: "O Tulasī, beloved of Kṛṣṇa, I bow before you again and again. My desire is to obtain the service of Śrī Śrī Rādhā and Kṛṣṇa.",
-        verse_mr: "नमो नमः तुलसी कृष्ण-प्रेयसी नमो नमः\nराधा-कृष्ण-सेवा पाबो एई अभिलाषी",
-        meaning_mr: "हे तुळशी! कृष्णप्रेयसी! मी तुला पुन्हा पुन्हा नमन करतो. मला श्री राधा-कृष्णाची सेवा मिळावी हीच माझी अभिलाषा आहे."
+        verse_en: "yāni kāni ca pāpāni brahma-hatyādikāni ca\ntāni tāni praṇaśyanti pradakṣiṇaḥ pade pade",
+        meaning_en: "By the circumambulation of Śrīmatī Tulasī Devī, all the sins that one may have committed are destroyed at every step.",
+        verse_mr: "यानि कानि च पापानि ब्रह्म-हत्यादिकानि च\nतानि तानि प्रणश्यन्ति प्रदक्षिणः पदे पदे ॥",
+        meaning_mr: "तुळशीची प्रदक्षिणा केल्यावर माणसाने केलेली ब्रह्महत्येसारखी महापापेही पावलापावलावर नष्ट होतात."
       }
     ]
   },
@@ -62,9 +128,21 @@ window.ARTIS_DATA = [
       },
       {
         verse_en: "ito nṛsiṁhaḥ parato nṛsiṁho yato yāmi tato nṛsiṁhaḥ\nbahir nṛsiṁho hṛdaye nṛsiṁho nṛsiṁham ādiṁ śaraṇaṁ prapadye",
-        meaning_en: "Lord Nṛsiṁha is here and also there. Wherever I go, Lord Nṛsiṁha is there. He is in the heart and is outside as well.",
-        verse_mr: "इतो नृसिंहः परतो नृसिंहो यतो यतो यामि ततो नृसिंहः\nबहिर्नृसिंहो हृदये नृसिंहो नृसिंहमादिं शरणं प्रपद्ये",
-        meaning_mr: "भगवान नृसिंह इथे आहेत आणि तिथेही आहेत. मी जिथे जिथे जातो तिथे भगवान नृसिंह आहेत. ते बाहेरही आहेत आणि हृदयातही आहेत. मी भगवान नृसिंहांना शरण जातो."
+        meaning_en: "Lord Nṛsiṁha is here and also there. Wherever I go, Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge.",
+        verse_mr: "इतो नृसिंहः परतो नृसिंहो यतो यामि ततो नृसिंहः\nबहिर्नृसिंहो हृदये नृसिंहो नृसिंहमादिं शरणं प्रपद्ये",
+        meaning_mr: "भगवान नृसिंह इथे आहेत आणि तिथेही आहेत. मी जिथे जिथे जातो तिथे तिथे भगवान नृसिंह आहेत. ते बाहेरही आहेत आणि हृदयातही आहेत. मी भगवान नृसिंहांना शरण जातो."
+      },
+      {
+        verse_en: "tava kara-kamala-vare nakham adbhuta-śṛṅgaṁ\ndalita-hiraṇyakaśipu-tanu-bhṛṅgam\nkeśava dhṛta-narahari-rūpa jaya jagadīśa hare",
+        meaning_en: "O Kesava! O Lord of the universe! All glories to You! Just as one can easily crush a wasp between one's fingernails, so the body of the wasp-like demon Hiranyakasipu has been ripped apart by the wonderfully pointed nails on Your beautiful lotus hands.",
+        verse_mr: "तव करकमलवरे नखमद्भुत-शृङ्गं\nदलितहिरण्यकशिपुतनुभृङ्गम्\nकेशव धृतनरहरिरूप जय जगदीश हरे",
+        meaning_mr: "हे केशवा! हे जगदीश्वरा! हे नृसिंह रूप धारण करणाऱ्या हरी! तुमचा विजय असो! ज्याप्रमाणे आपण हाताच्या नखांनी एखाद्या भुंग्याला सहज चिरडतो, त्याचप्रमाणे तुम्ही तुमच्या कोमल हस्तकमलांच्या अद्भूत नखांनी हिरण्यकशिपू रूपी मोठ्या भुंग्याला फाडून टाकले आहे."
+      },
+      {
+        verse_en: "ugraṁ vīraṁ mahā-viṣṇuṁ jvalantam sarvatomukham\nnṛsiṁhaṁ bhīṣaṇaṁ bhadraṁ mṛtyor mṛtyuṁ namāmy aham",
+        meaning_en: "I bow down to Lord Nṛsiṁha, who is ferocious and heroic like Lord Viṣṇu. He is burning everywhere, He is terrific, He is auspicious, and He is the death of death itself.",
+        verse_mr: "उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम्\nनृसिंहं भीषणं भद्रं मृत्योर्मृत्युं नमाम्यहम्",
+        meaning_mr: "मी भगवान नृसिंहांना नमन करतो, जे उग्र, वीर आणि महाविष्णूंप्रमाणे तेजस्वी आहेत. ते सर्वत्र प्रकाशमान आहेत, ते भीषण असूनही मंगलकारी आहेत आणि मृत्यूपदाचेही मृत्यू आहेत."
       }
     ]
   },
