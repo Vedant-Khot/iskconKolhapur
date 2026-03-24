@@ -206,9 +206,45 @@ window.ARTIS_DATA = [
     lyrics: [
       {
         verse_en: "kiba jaya jaya gorācāńder āratiko śobhā\njāhnavī-taṭa-vane jaga-mana-lobhā",
-        meaning_en: "All glories to the beautiful arati of Lord Caitanya! Taking place in a grove on the banks of the Ganges, it attracts all minds.",
-        verse_mr: "जय जय गोराचाँदेर आरतिक शोभा |\nजाह्नवी तट वने जगमन लोभा ||",
-        meaning_mr: "भगवान चैतन्यांच्या सुंदर आरतीचा विजय असो! गंगेच्या काठावर होणारी ही आरती सर्वांचे मन मोहून टाकणारी आहे."
+        meaning_en: "All glories to the beautiful arati of Lord Caitanya! This Gaura-arati is taking place in a grove on the banks of the Ganges and is attracting the minds of all living entities.",
+        verse_mr: "किब जय जय गोराचाँदेर आरतिक शोभा |\nजाह्नवी तट वने जगमन लोभा ||",
+        meaning_mr: "भगवान चैतन्यांच्या सुंदर आरतीचा विजय असो! गंगा नदीच्या किनाऱ्यावरील वनात होणारी ही आरती संपूर्ण जगाचे मन मोहून टाकणारी आहे."
+      },
+      {
+        verse_en: "dakhiṇe nitāicāńd, bāme gadādhara\nnikaṭe advaita, śrīnivāsa chatra-dhara",
+        meaning_en: "On Lord Caitanya's right side is Lord Nityananda and on His left is Sri Gadadhara. Nearby stands Sri Advaita, and Srivasa Thakura is holding an umbrella over Lord Caitanya's head.",
+        verse_mr: "दक्षिणे निताईचाँद, बामे गदाधर |\nनिकटे अद्वैत, श्रीनिवास छत्रधर ||",
+        meaning_mr: "भगवान चैतन्यांच्या उजव्या बाजूला नित्यानंद प्रभू आणि डाव्या बाजूला श्री गदाधर आहेत. जवळच अद्वैत प्रभू उभे आहेत आणि श्रीवास ठाकूर छत्र धरून उभे आहेत."
+      },
+      {
+        verse_en: "bosiyāche gorācāńd ratna-siḿhāsane\nārati koren brahmā-ādi deva-gaṇe",
+        meaning_en: "Lord Caitanya has sat down on a jeweled throne, and the demigods, headed by Lord Brahma, perform the arati ceremony.",
+        verse_mr: "बसियाछे गोराचाँद रत्न सिंहासने |\nआरति करेन ब्रह्मा-आदि देवगणे ||",
+        meaning_mr: "भगवान चैतन्य एका रत्नजडित सिंहासनावर बसले आहेत आणि ब्रम्हदेवांसह सर्व देव त्यांची आरती करत आहेत."
+      },
+      {
+        verse_en: "narahari-ādi kori' cāmara dhulāya\nsañjaya-mukunda-bāsu-ghoṣ-ādi gāya",
+        meaning_en: "Narahari Sarakara and other associates fan Him with chamaras, and devotees headed by Sanjaya Pandita, Mukunda Datta, and Vasu Ghosha sing sweet kirtana.",
+        verse_mr: "नरहरी-आदि करि चामर ढुलाय |\nसञ्जय-मुकुन्द-बसु-घोष-आदि गाय ||",
+        meaning_mr: "नरहरी आणि इतर पार्षद चामर सेवा देत आहेत आणि संजय, मुकुंद, वसू घोष इत्यादी भक्त मधुर कीर्तन गात आहेत."
+      },
+      {
+        verse_en: "śańkha bāje ghaṇṭā bāje bāje karatāla\nmadhura mṛdańga bāje parama rasāla",
+        meaning_en: "Conchshells resound, bells resound, and karatalas resound. The mridangas play very sweetly in this supremely relishable kirtana.",
+        verse_mr: "शङ्ख बाजे घण्टा बाजे बाजे करताल |\nमधुर मृदङ्ग बाजे परम रसाल ||",
+        meaning_mr: "शंख, घंटा आणि करताळांचा आवाज येत आहे. मधुर मृदंगाचा आवाज या कीर्तनाला अधिक रसाळ बनवतो."
+      },
+      {
+        verse_en: "bahu-koṭi candra jini' vadana ujjvala\ngala-deśe bana-mālā kore jhalamala",
+        meaning_en: "The brilliance of Lord Caitanya's face conquers millions upon millions of moons, and the garland of forest flowers around His neck shines.",
+        verse_mr: "बहु-कोटि चन्द्र जिनि वदन उज्ज्वल |\nगल-देशे वनमाला करे झलमल ||",
+        meaning_mr: "भगवान चैतन्यांचे मुख कोट्यवधी चंद्रांपेक्षाही उजळ आणि तेजस्वी आहे. त्यांच्या गळ्यातील वनमाला चमकत आहे."
+      },
+      {
+        verse_en: "śiva-śuka-nārada preme gada-gada\nbhakativinoda dekhe gorāra sampada",
+        meaning_en: "Lord Shiva, Sukadeva Gosvami, and Narada Muni are all there, their voices choked with ecstasy. Thus Bhaktivinoda envisions the glory of Lord Sri Caitanya.",
+        verse_mr: "शिव-शुक-नारद प्रेमे गद-गद |\nभक्तिविनोद देखे गोरार सम्पद ||",
+        meaning_mr: "भगवान शिव, शुकदेव गोस्वामी आणि नारद मुनी प्रेमाने गदगद झाले आहेत. अशा प्रकारे भक्तीविनोद ठाकूर भगवान चैतन्यांचे ऐश्वर्य पाहत आहेत."
       }
     ]
   }
