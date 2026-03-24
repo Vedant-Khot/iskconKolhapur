@@ -156,9 +156,27 @@ window.ARTIS_DATA = [
     lyrics: [
       {
         verse_en: "śrī-guru-caraṇa-padma, kevala-bhakati-sadma\nbando mui sāvadāna mate\njāhāra prasāde bhāi, e bhava toriyā jāi\nkṛṣṇa-prāpti hoy jāhā ha’te",
-        meaning_en: "The lotus feet of our spiritual master are the abode of pure devotional service. Through his grace, we can cross over this material existence.",
-        verse_mr: "श्रीगुरुचरण पद्म, केवळ भकती-सद्म\nबन्दो मुइ सावधान मते\nयाँहार प्रसादे भाई, ए भव तोरिया जाइ\nकृष्ण प्राप्ति होय जाहा हइते",
-        meaning_mr: "श्रीगुरुदेवांचे चरणकमल शुद्ध भक्तीचे निवासस्थान आहेत. त्यांच्या कृपेनेच आपण या भवसागरातून तरून जाऊ शकतो आणि कृष्णाची प्राप्राप्ती करू शकतो."
+        meaning_en: "The lotus feet of our spiritual master are the abode of pure devotional service. I bow to his lotus feet with great awe and reverence. By his grace one can cross the ocean of material suffering and obtain the mercy of Krishna.",
+        verse_mr: "श्रीगुरुचरण पद्म, केवळ भकती-सद्म\nबन्दो मुइ सावधान मते |\nयाँहार प्रसादे भाई, ए भव तोरिया जाइ\nकृष्ण प्राप्ति होय जाहा हइते ||",
+        meaning_mr: "श्रीगुरुदेवांचे चरणकमल शुद्ध भक्तीचे निवासस्थान आहेत. मी अत्यंत सावधपणे त्यांना वंदन करतो. त्यांच्या कृपेनेच आपण हा भवसागर तरून जाऊ शकतो आणि कृष्णाची प्राप्ती करू शकतो."
+      },
+      {
+        verse_en: "guru-mukha-padma-vākya, cittete koriyā aikya\nār nā koriho mane āśā\nśrī-guru-caraṇe rati, ei se uttama-gati\nje prasāde pūre sarva āśā",
+        meaning_en: "Make the teachings from the lotus mouth of the spiritual master one with your heart, and do not desire anything else. Attachment to the spiritual master's lotus feet is the ultimate goal, for his mercy fulfills all desires.",
+        verse_mr: "गुरुमुख पद्म वाक्य, चित्तेते करिया ऐक्य |\nआर ना करिव मने आशा ||\nश्रीगुरुचरणे रति, एइ से उत्तम गति |\nजे प्रसादे पुरे सर्व आशा ||",
+        meaning_mr: "गुरुंच्या मुखकमलातून निघालेला उपदेश आपल्या हृदयाशी एकरूप करा आणि दुसरी कोणतीही इच्छा ठेवू नका. श्रीगुरूंच्या चरणी प्रीती असणे हीच सर्वश्रेष्ठ गती आहे, कारण त्यांच्या कृपेने सर्व इच्छा पूर्ण होतात."
+      },
+      {
+        verse_en: "cakhu-dān dilo jei, janme janme prabhu sei\ndivya-jñān hṛde prokāśito\nprema-bhakti jāhā hoite, avidyā vināśa jāte\nvede gāy jāhāra carito",
+        meaning_en: "He who opens my eyes with the light of knowledge is my master, birth after birth. Divine knowledge is revealed in the heart by his grace. From him comes prema-bhakti, by which ignorance is destroyed. The Vedas sing of his glories.",
+        verse_mr: "चक्षुदान दिलो जेई, जन्मे जन्मे प्रभु सेई |\nदिव्य ज्ञान हृदे प्रकाशितो ||\nप्रेमभक्ती जाहा हइते, अविद्या विनाश जाते |\nवेदे गाय जाँहार चरित ||",
+        meaning_mr: "ज्यांनी माझे डोळे ज्ञानाने उघडले, तेच माझे जन्मोजन्मीचे प्रभू आहेत. त्यांच्या कृपेने हृदयात दिव्य ज्ञान प्रकाशित होते. त्यांच्यामुळेच प्रेमभक्ती प्राप्त होते आणि अज्ञानाचा नाश होतो."
+      },
+      {
+        verse_en: "śrī-guru karuṇā-sindhu, adhama janāra bandhu\nlokanāth lokera jīvana\nhā hā prabhu koro doyā, deho more pada-chāyā\nebe jaśa ghuṣuk tribhuvana",
+        meaning_en: "O spiritual master, ocean of mercy, friend of the fallen, you are the life of all people! O master, please be merciful to me and give me the shade of your lotus feet. May your glories now be proclaimed throughout the three worlds.",
+        verse_mr: "श्रीगुरु करुणा सिन्धु, अधम जनार बन्धु |\nलोकनाथ लोकेर जीवन ||\nहा हा प्रभु कर दया, देह मोरे पद छाया |\nएबे यश घुषुक त्रिभुवन ||",
+        meaning_mr: "हे श्रीगुरु! तुम्ही करुणेचे महासागर आहात, तुम्ही अधम जनांचे मित्र आहात. तुम्ही सर्व लोकांचे जीवन आहात. हे प्रभू! माझ्यावर दया करा आणि मला तुमच्या चरणांची छाया द्या. तुमचे यश तिन्ही लोकांत गाजले जावो."
       }
     ]
   },
